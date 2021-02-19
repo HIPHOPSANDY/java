@@ -1,4 +1,6 @@
 package com.company;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,5 +15,24 @@ public class Main {
         System.out.println("convertedKilograms = " + convertedKilograms);
         double pi =3.1415927d;
         System.out.println("pi = " + pi);
+
+        //input
+
+        int a;
+        float b;
+        Scanner inp= new Scanner(System.in);
+
+        System.out.println("Enter A and B:");
+        a=inp.nextInt();
+        b=inp.nextFloat();
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        double c= a/b;
+
+        System.out.println("c = " + c);
+        
+
+
+
     }
 }
