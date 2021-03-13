@@ -14,7 +14,7 @@ public class Switch {
         System.out.println("Student name :" + name);
         System.out.print("Grade");
         switch (grade) {
-            case 'D' :
+            case 10 :
             {
                 System.out.println("DISTINCTION");
                 break;

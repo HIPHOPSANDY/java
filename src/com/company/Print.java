@@ -17,8 +17,6 @@ public class Print {
         //code
         int a,b,c,d,e;
 
-
-
         a= s1.input_class();
         b=s1.input_class();
         c=s1.input_class();
